@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="hsCount" displayName="HS Count" type="int" 
+						defaultValue="90" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="intensityOfMutation" displayName="Intensity of Mutation" type="java.lang.String" 
+						defaultValue="1x" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="1x 2x 4x 8x 10x "
+											/>
+				<parameter name="collectorSpeed" displayName="Collector Speed" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="geneticAlgorithmCutOffTick" displayName="Max Memetic Algorithm Iterations" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="__NULL__"
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="collectAllHS" displayName="Do collectors collect all hs regardless of their TSP route?" type="boolean" 
+						defaultValue="true" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+												values="true false "
+											/>
+				<parameter name="generationalGap" displayName="Generation Gap" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												values="0.1 0.2 0.3 0.4 0.5 "
+											/>
+				<parameter name="collectorCount" displayName="Collector Count" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="populationSize" displayName="Memetic Algorithm Population Size" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="depthOfSearch" displayName="Depth of Search" type="java.lang.String" 
+						defaultValue="1x" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="1x 2x 4x 8x 10x "
+											/>
+				<parameter name="mapPhaseLength" displayName="Map Phase Tick Length" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="viewDistance" displayName="Collector View Distance" type="int" 
+						defaultValue="32" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="dimensions" displayName="Dimensions" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+		</parameters>
+
+
